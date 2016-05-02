@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\0040 Ausbildung\0050 Udacity\0010 AndroidDeveloperNanoDegree\0020 SourceCode\0080 xyzreader\XYZReader\src\androidTest\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\0040 Ausbildung\0050 Udacity\0010 AndroidDeveloperNanoDegree\0020 SourceCode\0080 xyzreader\XYZReader\src\androidTest\assets"/><source path="E:\0040 Ausbildung\0050 Udacity\0010 AndroidDeveloperNanoDegree\0020 SourceCode\0080 xyzreader\XYZReader\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>
