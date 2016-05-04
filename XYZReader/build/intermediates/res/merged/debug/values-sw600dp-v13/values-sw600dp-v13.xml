@@ -16,7 +16,12 @@
     <dimen name="detail_metabar_vert_padding">32dp</dimen>
     <dimen name="detail_photo_height">384dp</dimen>
     <dimen name="detail_title_text_size">42sp</dimen>
+    <dimen name="elevation_appbar">40dp</dimen>
+    <dimen name="elevation_card_pressed">8dp</dimen>
+    <dimen name="elevation_card_resting">2dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
     <dimen name="snackbar_action_inline_max_width">0dp</dimen>
     <dimen name="snackbar_background_corner_radius">2dp</dimen>
     <dimen name="snackbar_extra_spacing_horizontal">24dp</dimen>

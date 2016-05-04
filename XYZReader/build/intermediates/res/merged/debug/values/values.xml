@@ -22,6 +22,7 @@
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
+    <color name="black">#000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -202,6 +203,9 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="elevation_appbar">40dp</dimen>
+    <dimen name="elevation_card_pressed">8dp</dimen>
+    <dimen name="elevation_card_resting">2dp</dimen>
     <dimen name="fab_border_width">0.5dp</dimen>
     <dimen name="fab_content_size">24dp</dimen>
     <dimen name="fab_elevation">6dp</dimen>
@@ -1479,8 +1483,8 @@
         <item name="android:toolbarStyle">@style/Theme.Toolbar</item>
     </style>
     <style name="Theme.Bacon.FAB" parent="Widget.Design.FloatingActionButton">
-    <item name="android:backgroundTint">@color/theme_accent</item>
-</style>
+        <item name="android:backgroundTint">@color/theme_accent</item>
+    </style>
     <style name="Theme.Toolbar" parent="Widget.AppCompat.Toolbar">
         <item name="android:background">@color/theme_primary</item>
     </style>

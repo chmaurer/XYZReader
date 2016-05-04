@@ -4,15 +4,17 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/elevation_appbar">
+
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
+            style="@style/Theme.Toolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:layout_gravity="bottom"
             android:layout_marginLeft="@dimen/list_toolbar_side_margin"
-            android:layout_marginRight="@dimen/list_toolbar_side_margin"
-            style="@style/Theme.Toolbar">
+            android:layout_marginRight="@dimen/list_toolbar_side_margin">
 
             <ImageView
                 android:layout_width="wrap_content"

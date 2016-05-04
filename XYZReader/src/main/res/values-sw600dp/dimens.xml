@@ -3,5 +3,10 @@
     <dimen name="detail_title_text_size">42sp</dimen>
     <dimen name="detail_body_text_size">20sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.3</item>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+    <dimen name="elevation_appbar">40dp</dimen>
+    <dimen name="elevation_card_resting">2dp</dimen>
+    <dimen name="elevation_card_pressed">8dp</dimen>
 </resources>
