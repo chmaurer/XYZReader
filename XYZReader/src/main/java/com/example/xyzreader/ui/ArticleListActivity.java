@@ -132,7 +132,7 @@ public class ArticleListActivity extends ActionBarActivity implements
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    view.setElevation(getResources().getDimension(R.dimen.elevation_card_pressed));
+                    //view.setElevation(getResources().getDimension(R.dimen.elevation_card_pressed));
                     startActivity(new Intent(Intent.ACTION_VIEW,
                             ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))));
                 }

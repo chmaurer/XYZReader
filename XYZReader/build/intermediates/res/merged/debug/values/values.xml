@@ -79,10 +79,11 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <color name="theme_accent">#FFC400</color>
-    <color name="theme_primary">#303f9f</color>
-    <color name="theme_primary_dark">#1a237e</color>
-    <color name="theme_primary_light">#5c6bc0</color>
+    <color name="theme_accent">#19B7FF</color>
+    <color name="theme_primary">#546e7a</color>
+    <color name="theme_primary_dark">#263238</color>
+    <color name="theme_primary_light">#cfd8dc</color>
+    <color name="white">#fff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -214,6 +215,8 @@
     <dimen name="fab_size_mini">40dp</dimen>
     <dimen name="fab_size_normal">56dp</dimen>
     <dimen name="fab_translation_z_pressed">6dp</dimen>
+    <dimen name="font_size_detail">16sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
     <dimen name="list_side_margin">4dp</dimen>
     <dimen name="list_toolbar_side_margin">0dp</dimen>
     <dimen name="navigation_elevation">12dp</dimen>
@@ -279,6 +282,9 @@
     <string name="action_share">Share</string>
     <string name="app_name">XYZ Reader</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="line_spacing_multiplier">0.9</string>
+    <string name="sansSerif" translatable="false">sans-serif</string>
+    <string name="sansSerifCondensed" translatable="false">sans-serif-condensed</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="up">Up</string>
     <string name="welcome_xyz_reader">Welcome to XYZ Reader!</string>
@@ -1450,6 +1456,31 @@
     </style>
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
     </style>
+    <style name="TextBody">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorLink">@color/theme_accent</item>
+        <item name="android:fontFamily">@string/sansSerif</item>
+        <item name="android:textSize">@dimen/font_size_detail</item>
+    </style>
+    <style name="TextHeadingCard" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/font_size_detail</item>
+    </style>
+    <style name="TextHeadingDetail">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
+        <item name="android:fontFamily">@string/sansSerifCondensed</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingMultiplier">@string/line_spacing_multiplier</item>
+    </style>
+    <style name="TextSubHeadingCard" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/theme_primary</item>
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+    <style name="TextSubHeadingDetail">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
     <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>
     <style name="Theme.AppCompat.Dialog" parent="Base.Theme.AppCompat.Dialog"/>
@@ -1481,6 +1512,7 @@
     </style>
     <style name="Theme.Bacon.Detail" parent="@style/Theme.Apptheme">
         <item name="android:toolbarStyle">@style/Theme.Toolbar</item>
+        <item name="android:textViewStyle">@style/TextBody</item>
     </style>
     <style name="Theme.Bacon.FAB" parent="Widget.Design.FloatingActionButton">
         <item name="android:backgroundTint">@color/theme_accent</item>

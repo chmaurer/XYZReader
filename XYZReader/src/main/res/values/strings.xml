@@ -8,5 +8,7 @@
     <string name="action_share">Share</string>
 
     <string name="up">Up</string>
-
+    <string name="sansSerif" translatable="false">sans-serif</string>
+    <string name="sansSerifCondensed" translatable="false">sans-serif-condensed</string>
+    <string name="line_spacing_multiplier">0.9</string>
 </resources>

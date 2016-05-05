@@ -10,4 +10,6 @@
     <dimen name="elevation_appbar">40dp</dimen>
     <dimen name="elevation_card_resting">2dp</dimen>
     <dimen name="elevation_card_pressed">8dp</dimen>
+    <dimen name="font_size_detail">16sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
 </resources>
