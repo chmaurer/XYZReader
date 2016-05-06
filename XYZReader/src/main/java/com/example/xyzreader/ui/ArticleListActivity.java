@@ -29,6 +29,7 @@ import com.example.xyzreader.data.UpdaterService;
  Sources specifically for "Make Your App Material":
  Udacity Course on "Make your app material"
  FAB Elevation: http://stackoverflow.com/questions/30532863/how-to-add-shadow-to-the-fab-provided-with-the-android-support-design-library
+ Cleaning projects https://docs.google.com/document/d/1eYvuXY7GRE6VQpq4Rp-KotU1ti-JEySN1KdyKwjhzEQ/pub?embedded=true
  http://stackoverflow.com/questions/31328695/what-is-the-difference-between-appbarlayout-vs-toolbar
  http://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html
  http://developer.android.com/reference/android/support/design/widget/AppBarLayout.html
