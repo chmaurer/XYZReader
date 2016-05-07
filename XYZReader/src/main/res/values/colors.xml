@@ -24,4 +24,5 @@
     <color name="theme_primary_light">#cfd8dc</color>
     <color name="black">#000000</color>
     <color name="ltgray">#ffe0e0e0</color>
+    <color name="imageBackground">#333</color>
 </resources>

@@ -13,8 +13,8 @@
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:layout_gravity="bottom"
-            android:layout_marginStart="@dimen/list_toolbar_side_margin"
-            android:layout_marginEnd="@dimen/list_toolbar_side_margin">
+            android:layout_marginEnd="@dimen/list_toolbar_side_margin"
+            android:layout_marginStart="@dimen/list_toolbar_side_margin">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -35,10 +35,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
-            android:paddingBottom="28dp"
-            android:paddingStart="@dimen/list_side_margin"
+            android:paddingBottom="@dimen/paddingBottomRecyclerView"
             android:paddingEnd="@dimen/list_side_margin"
-            android:paddingTop="116dp"
+            android:paddingStart="@dimen/list_side_margin"
+            android:paddingTop="@dimen/paddingTopRecyclerView"
             android:scrollbarStyle="outsideOverlay" />
     </android.support.v4.widget.SwipeRefreshLayout>
 

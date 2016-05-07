@@ -49,7 +49,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="@dimen/detail_metabar_vert_padding"
-                    android:background="#333"
+                    android:background="@color/imageBackground"
                     android:orientation="vertical"
                     android:paddingBottom="@dimen/detail_metabar_vert_padding"
                     android:paddingEnd="@dimen/detail_inner_horiz_margin"
@@ -97,7 +97,7 @@
         android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share"
         android:stateListAnimator="@anim/fab_state_list_anim"
-        app:borderWidth="0dp"
+        app:borderWidth="@dimen/borderWidth"
         app:fabSize="normal"
         app:pressedTranslationZ="@dimen/fab_press_translation_z" />
     <!--
