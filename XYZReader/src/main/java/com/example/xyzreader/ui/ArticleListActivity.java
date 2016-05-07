@@ -77,7 +77,7 @@ import com.example.xyzreader.data.UpdaterService;
  http://stackoverflow.com/questions/13539688/how-to-use-roboto-font-in-android-project
  https://www.google.com/design/spec/resources/roboto-noto-fonts.html
  http://stackoverflow.com/questions/19113420/roboto-font-for-android-4
-
+ Udacity Review for first submission was used as well (requirement and recommendations)
 
  Sources specifically for BuildItBigger:
 
